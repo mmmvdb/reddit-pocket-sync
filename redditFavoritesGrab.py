@@ -1,7 +1,6 @@
 import praw
 import prawcore
 import os
-import sys
 
 def reddit_login():
     '''logs in the user using OAuth 2.0 and returns a redditor object for use'''
@@ -46,7 +45,7 @@ def main():
 
     for comment in saved_comments:
         comment_url = comment.link_url + comment.id
-        file.write('[%s] - Comment\n' % (comment_url.encode(sys.stdout.encoding, errors='replace')))
+        file.write('[{0!a}] - Comment\n'.format(comment_url))
         
     print('Done creating a list of comments...')
 
