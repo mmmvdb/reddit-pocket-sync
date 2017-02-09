@@ -27,7 +27,6 @@ Save it as `praw.ini` .
 Place it in your local working directory.
 
 ##Running the script
-The first time run the script from the terminal and give your consumer key.
 ```shell
 $ python redditFavoritesGrab.py 
 ```
