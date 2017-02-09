@@ -1,4 +1,4 @@
-#Sync Reddit saved posts to Pocket
+#Sync Reddit saved posts to text
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/hyperium/hyper/master/LICENSE) [![Python version](https://img.shields.io/badge/python-3.5-blue.svg)](https://www.python.org/downloads/release/python-350/)
 
 This script keeps your reddit account saved submissions backed up to a text flat file. Reddit has a hard limit of [1000 posts](https://www.reddit.com/r/help/comments/24znn6/i_just_learned_that_reddit_limits_the_number_of/) which was the primary motivation behind making this script. 
@@ -16,8 +16,11 @@ Before using this, you must create your own reddit app to obtain a public and a 
 Once you obtain your keys, create a new file in any text editor with the following content -
 > [mysettings]
 > client_id =YOUR_PUBLIC_APP_ID
+
 > client_secret = YOUR_SECRET_APP_ID
+
 > password = YOUR_PASSWORD
+
 > username = YOUR_USERNAME
 
 Save it as `praw.ini` .

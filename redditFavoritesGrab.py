@@ -50,9 +50,6 @@ def main():
         
     print('Done creating a list of comments...')
 
-    '''print('Done syncing comments with tag \'reddit comment\'.')'''
-    '''print('Successfully synced all your saved posts to your pocket account!')'''
-
     file.close()
     
 if __name__ == '__main__':
